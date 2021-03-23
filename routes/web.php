@@ -21,6 +21,5 @@ use App\Http\Controllers\phpControllerBiasa;
 // Route::get('/contact', [inicontroller::class, 'contact']);
 
 Route::get('/student', [StudentsController::class, 'index']);
-
 Route::get('/', [phpControllerBiasa::class, 'home']);
 Route::get('/about', [phpControllerBiasa::class, 'about']);
